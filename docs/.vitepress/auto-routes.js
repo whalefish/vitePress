@@ -46,7 +46,7 @@ const getFiles = (dir, root = '') => {
                 const currentDir = fullPath + '/index.md';
                 items.push({
                     text: readMarkdownFile(currentDir).metadata.title ?? file,
-                    link: '/manuals/' + file,
+                    link: '/manuals/' + file + '/index.md',
                     collapsed: false, // collapsed使子目錄可折疊, 設定初始頁面載入時為展開 collapsed為false
                     items: children
                 });
