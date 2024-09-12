@@ -21,5 +21,11 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: 🛠️
+    title: Simple and minimal, always
+    details: Lorem ipsum...
+  - icon:
+      src: assets/icons/add-box.svg
+    title: Another cool feature
+    details: Lorem ipsum...
 ---
-
