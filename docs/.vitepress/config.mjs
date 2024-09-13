@@ -6,9 +6,11 @@ import path from 'path';
 export default defineConfig({
     title: "CMS 3.0",
     description: "CMS 3.0 User Manuals",
+    head: [['link', { rel: 'icon', href: '/assets/images/logo.svg' }]],
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
-        
+        logo: "/assets/images/logo.svg", 
+
         nav: [
             { text: 'Home', link: '/' },
             { text: '手冊', link: '/manuals/intro' }
@@ -20,7 +22,9 @@ export default defineConfig({
         }],
 
         socialLinks: [
-        { icon: 'github', link: 'https://github.com/vuejs/vitepress' }]
+            { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
+            {icon: "twitter", link: "..."},
+        ]
     },
     resolve: {
         alias: {
