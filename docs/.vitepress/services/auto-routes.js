@@ -29,7 +29,7 @@ const readMarkdownFile = (filePath) => {
 };
   
 // 讀取目錄，生成層次結構
-const getFiles = (dir, root = '') => {
+export const getFiles = (dir, root = '') => {
     const files = fs.readdirSync(dir);
     const items = [];
     files.forEach((file) => {
@@ -64,10 +64,3 @@ const getFiles = (dir, root = '') => {
     
     return items;
 };
-
-// 回傳對應檔案資料結構
-export const routeItems = (dirPath) => {
-    const absolutePath = path.resolve(__dirname, dirPath);
-    console.log(absolutePath)
-    return getFiles(absolutePath);
-}

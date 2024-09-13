@@ -1,7 +1,6 @@
 import { defineConfig } from 'vitepress';
-import { routeItems } from './services/auto-routes';
+import { getFiles } from './services/auto-routes';
 import path from 'path';
-// import '../.vitepress/styles/custom.scss';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -19,12 +18,12 @@ export default defineConfig({
 
         sidebar: [{
             text: '手冊',
-            items: routeItems('../../manuals/'),
+            items: getFiles(path.resolve(__dirname, '../manuals/')),
         }],
 
         socialLinks: [
             { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
-            {icon: "twitter", link: "..."},
+            {icon: "youtube", link: "https://www.youtube.com/"},
         ]
     },
 });
