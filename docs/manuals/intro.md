@@ -1,7 +1,6 @@
 # 介紹
 ## 系統登入
-[![login page](/assets/img/intro/login-page.png)](/assets/img/intro/login-page.png)
-
+[![login page](/.vitepress/assets/img/intro/login-page.png)](/.vitepress/assets/img/intro/login-page.png)
 <span class="number">1</span> **帳號**：輸入帳號欄位。
 
 <span class="number">2</span> **密碼**：輸入密碼欄位。
@@ -20,7 +19,7 @@
 
 ### 修改密碼
 
-1. 依序按一下 「設定」 圖示 ![icon](/assets/icons/manage-accounts-outline.svg) >「個人設定」。
+1. 依序按一下 「設定」 圖示 ![icon](/.vitepress/assets/icons/manage-accounts-outline.svg) >「個人設定」。
 2. 基本資料裡的密碼項目，按一下「修改密碼」。
 3. 輸入相關資訊，按一下「確認」。
 4. 系統自動登出，回到登入頁重新登入。
@@ -42,7 +41,7 @@
 ---
 
 ## 個人設定
-![image](/assets/img/intro/personal.png)
+![image](/.vitepress/assets/img/intro/personal.png)
 
 <span class="number">1</span> **系統導覽**：選擇想查看的帳號、個人化項目資訊或設定。
 
@@ -63,12 +62,12 @@
 #### 管理職務 / 單位稿件
 
 **拖曳項目**
-1. 按一下「拖曳」圖示 ![icon](/assets/icons/drag-handle.svg)，滑鼠持續按著開始上下拖曳自訂位置。
+1. 按一下「拖曳」圖示 ![icon](/.vitepress/assets/icons/drag-handle.svg)，滑鼠持續按著開始上下拖曳自訂位置。
 2. 選擇好位置後放開滑鼠完成拖曳後，按一下「儲存」。
 
 **顯示 / 隱藏欄位**
-* 顯示欄位區的項目按一下「隱藏」圖示 ![icon](/assets/icons/do-not-disturb-fill.svg)，項目移至下方隱藏欄位區。
-* 隱藏欄位區的項目按一下「顯示」圖示 ![icon](/assets/icons/add.svg)，項目移至上方顯示欄位區。
+* 顯示欄位區的項目按一下「隱藏」圖示 ![icon](/.vitepress/assets/icons/do-not-disturb-fill.svg)，項目移至下方隱藏欄位區。
+* 隱藏欄位區的項目按一下「顯示」圖示 ![icon](/.vitepress/assets/icons/add.svg)，項目移至上方顯示欄位區。
 
 完成調整後，按一下列表上方「儲存」。
 
@@ -90,20 +89,20 @@
 ---
 
 ## 基本功能
-![image](/assets/img/intro/base-function.png)
+![image](/.vitepress/assets/img/intro/base-function.png)
 
 <span class="number">1</span> **主要功能**：該系統主要功能項目。
 
 <span class="number">2</span> **系統功能**：
 
-* 攝影單：按一下圖示 ![icon](/assets/icons/videocam-outline.svg) 待補充。
-* 應用程式：按一下圖示 ![icon](/assets/icons/apps.svg) 待補充。
-* 系統回報：按一下圖示 ![icon](/assets/icons/feedback-outline.svg) 待補充。
-* 個人設定：按一下圖示 ![icon](/assets/icons/manage-accounts-outline.svg) 可使用「[個人設定](#個人設定)」與「登出」系統。
+* 攝影單：按一下圖示 ![icon](/.vitepress/assets/icons/videocam-outline.svg) 待補充。
+* 應用程式：按一下圖示 ![icon](/.vitepress/assets/icons/apps.svg) 待補充。
+* 系統回報：按一下圖示 ![icon](/.vitepress/assets/icons/feedback-outline.svg) 待補充。
+* 個人設定：按一下圖示 ![icon](/.vitepress/assets/icons/manage-accounts-outline.svg) 可使用「[個人設定](#個人設定)」與「登出」系統。
 
 <span class="number">3</span> **系統選單**：切換至「[內容產品](/manuals/production)」與「[內容營運](/manuals/operations)」、「[後台管理](/manuals/admin)」系統。
 
-<span class="number">4</span> **收合導覽**：按一下圖示 ![icon](/assets/icons/menu.svg) 開啟或隱藏系統導覽列。
+<span class="number">4</span> **收合導覽**：按一下圖示 ![icon](/.vitepress/assets/icons/menu.svg) 開啟或隱藏系統導覽列。
 
 ---
 
