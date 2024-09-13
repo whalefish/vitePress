@@ -4,4 +4,4 @@ order: 5
 ---
 
 # 頻道
-![alt text](../../assets/images/logo.svg)
+![alt text](../../assets/img/logo.svg)

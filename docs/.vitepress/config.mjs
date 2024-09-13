@@ -5,11 +5,12 @@ import path from 'path';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
     title: "CMS 3.0",
+    siteTitle: 'My Custom Title',
     description: "CMS 3.0 User Manuals",
-    head: [['link', { rel: 'icon', href: '/assets/images/logo.svg' }]],
+    head: [['link', { rel: 'icon', href: '/assets/img/logo.svg' }]],
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
-        logo: "/assets/images/logo.svg", 
+        logo: "/assets/img/logo.svg", 
 
         nav: [
             { text: 'Home', link: '/' },
@@ -26,6 +27,7 @@ export default defineConfig({
             {icon: "twitter", link: "..."},
         ]
     },
+    
     resolve: {
         alias: {
             '@': path.resolve(__dirname, '../../docs/')

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="16px" viewBox="0 0 28 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Switch / L / 01 Default Copy 17</title>
+    <g id="component-list" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="RADIO-BUTTON、CHECK-BOX、SWITCH｜單選按鈕" transform="translate(-1802, -376)">
+            <g id="Switch-/-L-/-01-Default-Copy-17" transform="translate(1802, 376)">
+                <rect id="Rectangle" fill-opacity="0.2" fill="#4C61F7" x="0" y="0" width="28" height="16" rx="8"></rect>
+                <g id="Button-/-06-Round-/-05-mini-/-20-px-/-02-Secondary-/-01-Default" transform="translate(3, 2)">
+                    <circle id="Oval" fill="#FFFFFF" cx="6" cy="6" r="6"></circle>
+                    <g id="icon-/-account-/-outline" transform="translate(3.625, 3.625)" fill="#4C61F7">
+                        <polygon id="Path" points="0.376149715 4.75 -6.34559036e-16 4.37385029 1.99885029 2.375 -8.8817842e-16 0.376149715 0.376149715 8.8817842e-16 2.375 1.99885029 4.37385029 8.8817842e-16 4.75 0.376149715 2.75114971 2.375 4.75 4.37385029 4.37385029 4.75 2.375 2.75114971"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
