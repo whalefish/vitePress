@@ -68,6 +68,6 @@ const getFiles = (dir, root = '') => {
 // 回傳對應檔案資料結構
 export const routeItems = (dirPath) => {
     const absolutePath = path.resolve(__dirname, dirPath);
-
+    console.log(absolutePath)
     return getFiles(absolutePath);
 }

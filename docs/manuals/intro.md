@@ -1,6 +1,20 @@
+---
+title: 介紹
+order: 1
+---
+
+<script setup>
+import { ref } from 'vue'
+
+const count = ref(0)
+</script>
+
 # 介紹
 ## 系統登入
 [![login page](/.vitepress/assets/img/intro/login-page.png)](/.vitepress/assets/img/intro/login-page.png)
+
+[![login page](/.vitepress/assets/img/intro/login-page.png)](/.vitepress/assets/img/intro/login-page.png)
+
 <span class="number">1</span> **帳號**：輸入帳號欄位。
 
 <span class="number">2</span> **密碼**：輸入密碼欄位。
