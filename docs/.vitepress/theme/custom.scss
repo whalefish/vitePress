@@ -1,0 +1,111 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+	--ifm-color-primary: #2e8555;
+	--ifm-color-primary-dark: #29784c;
+	--ifm-color-primary-darker: #277148;
+	--ifm-color-primary-darkest: #205d3b;
+	--ifm-color-primary-light: #33925d;
+	--ifm-color-primary-lighter: #359962;
+	--ifm-color-primary-lightest: #3cad6e;
+	--ifm-code-font-size: 95%;
+	--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme="dark"] {
+	--ifm-color-primary: #25c2a0;
+	--ifm-color-primary-dark: #21af90;
+	--ifm-color-primary-darker: #1fa588;
+	--ifm-color-primary-darkest: #1a8870;
+	--ifm-color-primary-light: #29d5b0;
+	--ifm-color-primary-lighter: #32d8b4;
+	--ifm-color-primary-lightest: #4fddbf;
+	--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+html[data-theme="dark"] {
+	img[alt="icon"] {
+		filter: invert(100%);
+	}
+}
+
+p,
+ul,
+ol {
+	img[alt="icon"],
+	img[alt="number"] {
+		display: inline-block;
+		vertical-align: middle;
+		width: 20px;
+		height: 20px;
+	}
+}
+
+table {
+	width: 100%;
+	display: table;
+}
+
+ol ol,
+ul ol {
+	list-style-type: decimal;
+}
+
+$gray-02: #e5e7eb;
+$info-default: #dde1fd;
+$text-gray-supporting: #989eb3;
+$text-info: #4c61f7;
+$text-success: #00d18d;
+$text-warning: #ff8f25;
+$text-error: #f43c2a;
+$text-dark-info: #4c61f7;
+$text-dark-success: #00a373;
+$text-dark-warning: #f07500;
+$text-dark-error: #af1809;
+
+@mixin createBadge($color, $bkColor) {
+	font-size: 12px;
+	display: inline-block;
+	color: $color;
+	background-color: $bkColor;
+	border-radius: 4px;
+	padding: 3px 8px;
+}
+
+.badge-gray {
+	@include createBadge($text-gray-supporting, $gray-02);
+}
+
+.badge-green {
+	@include createBadge($text-dark-success, rgba(175, 255, 214, 0.5));
+}
+
+.badge-orange {
+	@include createBadge($text-dark-warning, rgba(255, 208, 138, 0.5));
+}
+
+.badge-red {
+	@include createBadge($text-error, rgba(247, 122, 110, 0.15));
+}
+
+.badge-blue {
+	@include createBadge($text-info, $info-default);
+}
+
+.number {
+	display: inline-block;
+	text-align: center;
+	width: 24px;
+	height: 24px;
+	font-weight: bolder;
+	font-size: 14px;
+	color: #16171d;
+	background-color: #ffbc1f;
+	border-radius: 50px;
+}
