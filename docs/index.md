@@ -25,7 +25,7 @@ features:
     title: Simple and minimal, always
     details: Lorem ipsum...
   - icon:
-      src: assets/icons/add-box.svg
+      src: .vitepress/assets/icons/add-box.svg
     title: Another cool feature
     details: Lorem ipsum...
 ---
