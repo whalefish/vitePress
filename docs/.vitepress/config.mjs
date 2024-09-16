@@ -9,6 +9,18 @@ export default defineConfig({
     siteTitle: 'My Custom Title',
     description: "CMS 3.0 User Manuals",
     head: [['link', { rel: 'icon', href: '/.vitepress/assets/img/logo.svg' }]],
+    vite: {
+        plugins: [
+            // add plugin
+            AutoSidebar({
+                ignoreIndexItem: false, // 忽略index.md檔案
+                titleFromFile: true,
+            })
+        ],
+        server: {
+            open: true,  // 自動在瀏覽器打開
+        }
+    },
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         logo: '/.vitepress/assets/img/favicon.ico', 
@@ -21,12 +33,6 @@ export default defineConfig({
         //     text: '手冊',
         //     items: getFiles(path.resolve(__dirname, '../manuals/')),
         // }],
-        sidebar: AutoSidebar({
-            path: '/docs/manuals/',
-            collapsible: true,
-            ignore: ['index.md'],
-            sort: 'asc'
-        }),
 
         socialLinks: [
             { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
