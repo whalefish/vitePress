@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress';
 import { getFiles } from './services/auto-routes';
 import path from 'path';
 
-import { generateSidebar } from 'vitepress-sidebar';
+import { generateSidebar } from 'vitepress-sidebar'; // 參考: https://vitepress-sidebar.cdget.com/
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
