@@ -1,6 +1,6 @@
 ---
-title: 範例
-order: 5
+title: 3、範例
+order: 3
 ---
 
 # 範例
