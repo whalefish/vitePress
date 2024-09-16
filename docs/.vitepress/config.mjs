@@ -31,8 +31,7 @@ export default defineConfig({
                 resolvePath: '/test01/',
                 includeFolderIndexFile: true, // 包含該資料夾的 index.md 作為主要連結
                 useFolderTitleFromIndexFile: true,
-                useTitleFromFrontmatter: true,
-                sortMenusByName: true, // 按文件名排序（字母順序）
+                // useTitleFromFrontmatter: true, // 啟用從 Frontmatter 提取標題
                 collapsed: false, // 預設展開該資料夾
                 collapseDepth: 2, // 控制展開的深度
             },
